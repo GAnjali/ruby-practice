@@ -14,7 +14,11 @@ array.concat([2, 3])
 array << 3
 puts array
 
-array = [1, 2, 3, 4]
+array = Array.new(4)
+array[0]=1
+array[1]=2
+array[2]=3
+array[3]=4
 array.map{|num| num**2}
 array
 array.collect{|num| num**2}
